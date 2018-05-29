@@ -21,3 +21,6 @@ Klik [disini](https://github.com/ogigpermana/ReduxSimpleStarter/archive/master.z
 > npm install
 > npm start
 ```
+
+#### Blueprint aplikasi
+![ReduxSimpleStarter Logo](/doc/img/blueprint.png)
