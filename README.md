@@ -1,23 +1,21 @@
 # ReduxSimpleStarter
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
+### Proses Awal
 
-### Getting Started
+Ada dua cara untuk menjalankan aplikasi
 
-There are two methods for getting started with this repo.
-
-#### Familiar with Git?
-Checkout this repo, install dependencies, then start the gulp process with the following:
+#### Apakah familiar dengan git?
+Periksa repo ini, install dependensi, untuk memulai silahkan ketikan perintah dibawah ini:
 
 ```
-> git clone https://github.com/StephenGrider/ReduxSimpleStarter.git
+> git clone https://github.com/ogigpermana/ReduxSimpleStarter.git
 > cd ReduxSimpleStarter
 > npm install
 > npm start
 ```
 
-#### Not Familiar with Git?
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
+#### Apakah tidak familiar dengan git?
+Klik [disini](https://github.com/ogigpermana/ReduxSimpleStarter/archive/master.zip) kemudian download file .zip .  Ekstrak folder yang ada dalam .zip, buka terminal, pindah ke folder direktori yang sudah di ekstrak tadi, kemudian ketikan peritah dibawah ini:
 
 ```
 > npm install
