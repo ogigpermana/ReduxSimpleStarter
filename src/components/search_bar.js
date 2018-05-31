@@ -9,12 +9,20 @@ class SearchBar extends Component{
 
 	render(){
 		return (
-		<div>
+			<div className="top-search">
+            <form className="navbar-form navbar-right">
 			<input
+				className="form-control"
 				value={this.state.term} 
-				onChange={event => this.setState({ term: event.target.value })} />
-		</div>
+				onChange={event => this.onInputChange(event.target.value)} />
+            </form>
+          </div>
 		);
+	}
+
+	onInputChange(term){
+		this.setState({term});
+		this.props.onSearchTermChange(term);
 	}
 }
 
