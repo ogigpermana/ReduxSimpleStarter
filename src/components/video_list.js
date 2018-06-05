@@ -12,13 +12,13 @@ const VideoList = (props) => {
     });
 
     return (
-        <div className="col-md-4 single-right">
+        <div className="col-sm-4 single-right">
         <h3>Up Next</h3>
             <div className="single-grid-right">
                 {videoItems}
             </div>
         </div>
     );
-}
+};
 
 export default VideoList;
